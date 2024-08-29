@@ -1,0 +1,101 @@
+/* Importe uma fonte mais robusta e tradicional */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: url('home.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* Transparência para destacar o conteúdo */
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ffd700; /* Cor dourada para lembrar os campos e o sol */
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+    font-size: 1rem;
+}
+
+th {
+    background-color: rgba(255, 215, 0, 0.7); /* Dourado com transparência */
+    color: #333;
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #f0c500;
+}
+
+input[type="submit"] {
+    background-color: #ffd700;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #f0c500;
+}
+
+form input[type="text"], form input[type="number"], form input[type="date"] {
+    padding: 12px;
+    width: calc(100% - 24px);
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+footer {
+    margin-top: 30px;
+    color: #ffd700;
+    font-size: 1rem;
+}
